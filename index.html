@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+</head>
+
+<body>
+<form method="post" enctype="text/plain" action="mailto:imazur@tm1.edu.pl">
+<fieldset style="width:300px;"><legend align="left">Dane osobowe</legend>
+<table>
+<tr><td>Imię:</td>
+<td><input type="text" name="imie"></td></tr>
+<tr><td>Nazwisko:</td>
+<td><input type="text" name="nazwisko"></td></tr>
+<tr><td>Data urodzenia:</td>
+<td><input type="date" placeholder="dd.mm.rrrr" name="data urodzenia"></td></tr>
+<tr><td>Miejsce urodzenia</td>
+<td><input type="text" name="miejsce urodzenia"></td></tr>
+</table>
+</fieldset>
+
+<fieldset style="width:500px;"><legend align="left">Pozostałe informacje</legend>
+<table>
+<tr><td>Wykształcenie</td>
+<td><input type="radio" name="wyksztalcenie">podstawowe
+<input type="radio" name="wyksztalcenie">średnie
+<input type="radio" name="wyksztalcenie">wyższe</td></tr>
+<tr><td >Zawód wykonywalny</td>
+<td><input type="text" name="zawod"></td></tr>
+<tr><td>Dodatkowe umiejętności</td>
+<td><textarea rows="8" name="dodatkowe umiejetnosci"></textarea></td></tr>
+</table>
+</fieldset>
+
+<input type="submit" value="Wyślji" >
+<br>
+<input type="reset" value="Wykasuj">
+</form>
+</body>
+</html>
